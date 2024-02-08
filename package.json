@@ -7,10 +7,6 @@
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "lib"
-  ],
   "scripts": {
     "pretest": "npm run format && npm run build",
     "test": "TEST_PORT=1234 TS_NODE_CACHE=0 mocha",
